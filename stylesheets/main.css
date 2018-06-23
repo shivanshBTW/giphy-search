@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 nav h1 {
     color: white;
 }
@@ -13,6 +17,6 @@ nav h1 {
     border: 3px black solid;
 }
 
-.form-group input{
+.form-group input {
     margin-left: 5px;
 }
