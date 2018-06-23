@@ -1,0 +1,13 @@
+nav h1 {
+    color: white;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.imageRecieved {
+    margin: 5px;
+    width: 20em;
+    height: 11.25em;
+}
