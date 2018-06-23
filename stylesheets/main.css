@@ -10,4 +10,9 @@ nav h1 {
     margin: 5px;
     width: 20em;
     height: 11.25em;
+    border: 3px black solid;
+}
+
+.form-group input{
+    margin-left: 5px;
 }

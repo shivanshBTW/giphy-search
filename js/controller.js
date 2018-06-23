@@ -11,7 +11,7 @@ function bindEvents(){
 
 function fillDefault(){
     document.querySelector('#searchText').value = 'cars';
-    document.querySelector('#searchAmount').value = 5;
+    document.querySelector('#searchAmount').value = 6;
 
 }
 
@@ -36,6 +36,7 @@ function callAPI(){
 }
 
 function printImage(data){
+    document.querySelector('#imageDiv').innerHTML="";
     for(image of data){
         url = image.images.original.url;
         var img = document.createElement('img');
